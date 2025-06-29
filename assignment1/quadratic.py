@@ -1,0 +1,7 @@
+a=float(input("enter the value of a:"))
+b=float(input("enter the value of b:"))
+c=float(input("enter the value of c:"))
+root1=(-b+(b*b)-(4*a*c))/(2*a)
+root2=(-b-(b*b)-(4*a*c))/(2*a)
+print(root1)
+print(root2)
