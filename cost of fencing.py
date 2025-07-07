@@ -1,0 +1,9 @@
+radius=20
+length=50
+breadth=40
+cost_of_wire_per_meter=35
+fencing_rounds=5
+perimeter_of_half_circle=3.14*20
+perimeter_of_rectangle=2*(50+40)
+total_cost=cost_of_wire_per_meter*fencing_rounds*(perimeter_of_half_circle+perimeter_of_rectangle)
+print(total_cost)
